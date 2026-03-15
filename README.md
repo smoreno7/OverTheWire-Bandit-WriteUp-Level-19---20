@@ -51,5 +51,7 @@ And the output is this:
 ```
 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 ```
+Level 20 password was found.
+
 # Conclusions:
 The binary successfully executed the command with **bandit20**'s permissions, bypassing system access controls and revealing the password in plain text on standard output. This demonstrates the criticality of assigning the SUID bit only to strictly necessary and safe programs.
